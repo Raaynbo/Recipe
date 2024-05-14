@@ -4,13 +4,40 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> Recipes </title>
+		<link rel="stylesheet" href="static/css/style.css">
 	</head>
 	<body>
-		<h1><strong>ODIN</strong> Recipes</h1>
-		<ul>
-			<li><a href="recipe/beefbourguignon.html">Boeuf bourguignon</a></li>
-			<li><a href="recipe/lasagna.html">Lasagna</a></li>
-			<li><a href="recipe/chickenavocado.html">Chicken avocado cup</a></li>
-		</ul>
+		<header>
+			<p id="nav_title"><strong>ODIN</strong> Recipes</p>
+		</header>
+		<main>
+			<p>Recipes list</p>
+			<div class="box_container">
+				<div class="card">
+					<a href="recipe/chickenavocado.html">
+					<img src="static/img/chickenavocado.jpg" alt="chicken avocado cup">
+					<div class="card_title">
+						Chicken avocado cup
+					</div>
+					</a>
+				</div>
+				<div class="card">
+					<a href="recipe/beefbourguignon.html">
+					<img src="static/img/beef.jpg" alt="beef bourguignon">
+					<div class="card_title">
+						beef bourguignon	
+					</div>
+					</a>
+				</div>
+				<div class="card">
+					<a href="recipe/lasagna.html">
+					<img src="static/img/lasagne.jpg" alt="lasagna">
+					<div class="card_title">
+						lasagna	
+					</div>
+					</a>
+				</div>
+			</div>
+		</main>
 	</body>
 </html>
