@@ -1,2 +1,2 @@
 # Recipe
-Website made for The-Odin-Project introductory course on HTML
+Website made following The-Odin-Project introductory course on web development
