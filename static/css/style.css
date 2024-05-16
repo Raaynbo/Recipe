@@ -3,6 +3,9 @@
 	--dark:#25252580;
 	--light:#d3d3d3;
 	--first: #e0607e;
+	--second:#d36060;
+	--third:#c2714f;
+	--fourth:#f6c5af;
 }
 
 body  {
@@ -50,14 +53,14 @@ a {
 	flex-direction:column;
 	height:90%;
 	justify-content:center;
-	gap:25px;
+	gap:50px;
 }
 
 .catch_text{
 	color:white;
 	font-weight:bold;
 	font-size:32px;
-	background-color: var(--dark);
+	background-color: var(--second);
 	width:100%;
 	text-align:center;
 }
@@ -89,11 +92,11 @@ a {
 	display:flex;
 	flex-direction:column;
 	color:black;
-	font-size:22px;
+	font-size:24px;
 	}
 
 .card_title p{
-	margin:0;
+	margin:2px;
 	padding:0;
 }
 
@@ -108,20 +111,19 @@ a {
 
 .recipe_tag { 
 	font-size:15px;
-	padding-top:1%;
 	font-weight:500;
-	font-style:italic;
 	color:var(--dark);
 }
 
 .recipe_container{
-	background-color:var(--light);
+	background-color:var(--fourth);
 	color:white;
 	display: flex;
 	justify-content:center;
 	align-items:center;
 	gap:2%;
 }
+
 
 .recipe_container img{
 	width:30vw;
@@ -151,7 +153,9 @@ a {
 
 .button_return {
 	background-color:var(--first);
-	width:15%;
+	border-radius:8px;
+	width:fit-content;
+	color:white;
 	padding:8px;
 	font-size:15px;
 	font-weight:600;
@@ -160,6 +164,20 @@ a {
 .button_return a {
 	color:white;
 }
+
+.button {
+	padding:8px;
+	font-size:16px;
+	font-weight:800;
+	border-radius:12px;
+	margin-left: 2%;
+}
+
+.bg_white{
+	background-color:var(--first);
+	color:white;
+}
+
 
 #ps {
 	font-style: italic;
@@ -173,3 +191,7 @@ a {
 	width:80%;
 }
 
+#odin_choice {
+	background-color:var(--fourth);
+	font-size:24px;
+}
