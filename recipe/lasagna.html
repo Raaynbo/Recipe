@@ -3,24 +3,30 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Recipes </title>
+		<title> Odin's lasagna </title>
 		<link rel="stylesheet" href="../static/css/style.css">
 	</head>
 	<body>
 		<header>
 			<p id="nav_title"><strong>ODIN</strong> Recipes</p>
 			<ul class="nav_link_list">
-				<li><a href="#"> Link 1 </a></li>
-				<li><a href="#"> Link 1 </a></li>
+				<li><a href="../index.html"> Home </a></li>
+				<li><a href="../about.html"> About </a></li>
 				<li><a href="#"> Link 1 </a></li>
 			</ul>
 		</header>
 		<p class="catch_text">Ready to cook a tasty meal ?</p>
 		<main>
-			<p class="container_title">Lasagna</p>
 			<div class="box_container">
-				<img src="../static/img/lasagne.jpg" alt="Lasagna" width="380px" height="380px"/>
-				<h3>Ingredients list</h3>
+				<div class="recipe_container">
+					<img class="recipe_img" src="../static/img/lasagne.jpg" alt="Lasagna" />
+					<div class="recipe_desc">
+						<p class="container_title">Lasagna</p>
+						<p>The tradition of lasagna originated in Emilia Romagna, and from there it has become one of the symbols of Italian cuisine throughout the world. Abroad, lasagne alla bolognese, made with béchamel and meat sauce, is well known. The Neapolitan version of this recipe includes among its ingredients tomato sauce, mozzarella, meatballs and Roman ricotta cheese. In Liguria, pesto is used as a sauce, while in Venice the sauce is replaced with red radicchio. The lasagna you eat depends on where you are. </p>
+					</div>
+				</div>
+				<div class="recipe_content">
+						<p>Ingredients list</p>
 				<ul>
 					<li>Meat</li>
 					<li>Onions</li>
@@ -31,7 +37,7 @@
 					<li>Cheese</li>
 					<li>Noodles</li>
 				</ul>
-				<h3>Instructions</h3>
+					<p>Instructions</p>
 				<ol>
 					<li>Cook the ground meat in a skillet until browned and crumbly. Add the onion and continue cooking until it's translucent. Stir in the canned tomato products, parsley garlic, basil, salt and oregano.</li>
 					<li>Boils the lasagna noodles in lightly salted water until they're al dente.</li>
@@ -39,8 +45,9 @@
 					<li>Layer the ingredients accoreding to the recipe until the lasagna is assembled.</li>
 					<li>Cover with foil and bake in the preheated oven for about half an hour. Remove the foil and continue baking until the top is golden brown.</li>
 				</ol>
-				<a href="https://www.allrecipes.com/recipe/19344/homemade-lasagna/"><em>Source</em></a>
-				<a href="../index.html">Back to the recipe list</a>
+					<a href="https://www.allrecipes.com/recipe/19344/homemade-lasagna/"><em>Source</em></a>
+					<button class="button_return" ><a href="../index.html">Back to the recipe list</a></button>
+				</div>
 			</div>
 		</main>
 	</body>
